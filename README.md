@@ -1,6 +1,23 @@
 # Lamoreaux Labs Site
 
-Create a new site:
+Lastest experiments, tools and services from Lamoreaux Labs.
+
+# Quick Start Guide
+
+```bash
+# Clone the project
+
+# Install dependencies
+cd ./docs
+bundle install
+
+# Run site locally
+bundle exec jekyll serve
+```
+
+# Maintainance Notes
+
+## Setup 
 ```bash
 mdir new_site
 cd new_site
@@ -23,13 +40,13 @@ bundle install
 # Edit _config.yml
 ```
 
-Run site locally
-```
-cd ./path_to_site
-bundle exec jekyll serve
-```
+## Updating
+
+To update to the latest version of Jekyll and associated dependencies, simply run `bundle update github-pages`.
+
 
 # References
 * https://jekyllrb.com/docs/
 * GitHub Pages Create Site https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
 * GitHub Pages test locally https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+* https://github.com/github/pages-gem
